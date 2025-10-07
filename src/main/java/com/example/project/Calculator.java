@@ -4,7 +4,7 @@ public class Calculator{
     
     //constructor that creates an instance of the calculator class
     //the calculator class has one attirbute -> a string that holds the model name of the calculator 
-    public Calculator() {
+    public Calculator(String x) {
         //implement code here
     }
     
