@@ -94,6 +94,16 @@ public class CalculatorTest{
         assertEquals(expectedOutput,studentOutput);
     }
 
+    @Test
+    void testAverage(){
+        Calculator calculator = new Calculator("TI84");
+        int n1 = 5;
+        int n2 = 8;
+        double expectedOutput = 6.5;
+        double studentOutput = calculator.average(n1, n2);
+        assertEquals(expectedOutput, studentOutput);
+    }
+
 
     @Test
     void testInfo(){
